@@ -1,11 +1,19 @@
 {
-  "name": "package",
+  "name": "@sysotel/sys-common-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysotel/sys-common-js.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "@sysotel:registry": "https://npm.pkg.github.com/"
+  }
 }
