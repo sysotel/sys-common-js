@@ -1,3 +1,3 @@
-const TestPackage = () => 'New Changes'
+const TestPackage = () => 'Final Change'
 
 export default TestPackage;
