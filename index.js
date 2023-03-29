@@ -1,3 +1,3 @@
-const TestPackage = () => 'Private Package'
+const TestPackage = () => 'New Changes'
 
 export default TestPackage;
