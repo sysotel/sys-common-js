@@ -13,3 +13,11 @@ export const AMENITY_TARGET_SPACE = 'SPACE'
 export const PROMOTION_TYPE_BASIC = 'BASIC'
 export const PROMOTION_TYPE_EARLY_BIRD = 'EARLY_BIRD'
 export const PROMOTION_TYPE_LAST_MINUTE = 'LAST_MINUTE'
+
+export const ACCOUNT_TYPE_SELF = "SELF";
+
+export const CURRENCY_INR = "INR";
+
+export const TIMEZONE_ASIA_KOLKATA = 'Asia/Kolkata'
+
+
