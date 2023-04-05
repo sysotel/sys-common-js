@@ -15,15 +15,15 @@ export const MarketChannelLogo = (marketChannel, width, height) => {
 
     if (marketChannel in MarketChannelMapping) {
         return (
-            <div
-                style={setBackgroundImage(MarketChannelMapping[marketChannel])}
-            />
+            `<div
+                style={${setBackgroundImage(MarketChannelMapping[marketChannel])}}
+            />`
         )
     } else {
         return (
-            <div
-                style={setBackgroundImage(NoImageFound)}
-            />
+            `<div
+                style={${setBackgroundImage(NoImageFound)}}
+            />`
         )
     }
 }
