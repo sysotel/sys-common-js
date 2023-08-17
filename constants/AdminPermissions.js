@@ -382,3 +382,9 @@ export const IYA_DemandManagement_FileUploads_UploadFile = 'IYA:DemandManagement
 
 export const ADMIN_STATUS_ACTIVE = 'ACTIVE';
 export const ADMIN_STATUS_BLOCKED = 'BLOCKED';
+
+export const IBE_Guests_FullAccess = 'IBE:Guests:*';
+export const IBE_Guests_ListGuests = 'IBE:Guests:ListGuests';
+export const IBE_Guests_DescribeGuest = 'IBE:Guests:DescribeGuest';
+export const IBE_Guests_ViewContactDetails = 'IBE:Guests:ViewContactDetails';
+export const IBE_Guests_UpdateStatus = 'IBE:Guests:UpdateStatus';
