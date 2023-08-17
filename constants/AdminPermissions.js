@@ -352,7 +352,30 @@ export const IYA_VendorManagement_AiRateMetrics_ViewAccountCredits = 'IYA:Vendor
 export const IYA_VendorManagement_AiRateMetrics_GetQueueStatus = 'IYA:VendorManagement:AiRateMetrics:GetQueueStatus'; // new
 export const IYA_VendorManagement_AiRateMetrics_ViewReferenceContent = 'IYA:VendorManagement:AiRateMetrics:ViewReferenceContent'; // new
 
-
 export const IYA_VendorManagement_AiReviews_FullAccess = 'IYA:VendorManagement:AiReviews:*'; // new
 export const IYA_VendorManagement_AiReviews_SearchHotel = 'IYA:VendorManagement:SearchHotel:SearchHotel'; // new
 export const IYA_VendorManagement_AiReviews_RequestHotel = 'IYA:VendorManagement:RequestHotel:RequestHotel'; // new
+
+// BOOKING DATA UPLOAD
+export const IYA_BookingDataManagement_FileUploads_FullAccess = 'IYA:BookingDataManagement:FileUploads:*';
+export const IYA_BookingDataManagement_FileUploads_ListUploads = 'IYA:BookingDataManagement:FileUploads::ListUploads';
+export const IYA_BookingDataManagement_FileUploads_DescribeUpload = 'IYA:BookingDataManagement:FileUploads::DescribeUpload';
+export const IYA_BookingDataManagement_FileUploads_ViewUploadedFile = 'IYA:BookingDataManagement:FileUploads::ViewUploadedFile';
+export const IYA_BookingDataManagement_FileUploads_DownloadUploadedFile = 'IYA:BookingDataManagement:FileUploads::DownloadUploadedFile';
+export const IYA_BookingDataManagement_FileUploads_UploadFile = 'IYA:BookingDataManagement:FileUploads::UploadFile';
+
+
+
+// DEMAND ACTIVITY
+export const IYA_DemandManagement_PropertyDemandActivity_FullAccess = 'IYA:DemandManagement:PropertyDemandActivity:*';
+export const IYA_DemandManagement_PropertyDemandActivity_ListActivity = 'IYA:DemandManagement:PropertyDemandActivity:ListActivity';
+export const IYA_DemandManagement_PropertyDemandActivity_DescribeActivity = 'IYA:DemandManagement:PropertyDemandActivity:DescribeActivity';
+
+
+// PROPERTY DATA UPLOAD
+export const IYA_DemandManagement_FileUploads_FullAccess = 'IYA:DemandManagement:FileUploads:*';
+export const IYA_DemandManagement_FileUploads_ListUploads = 'IYA:DemandManagement:FileUploads::ListUploads';
+export const IYA_DemandManagement_FileUploads_DescribeUpload = 'IYA:DemandManagement:FileUploads::DescribeUpload';
+export const IYA_DemandManagement_FileUploads_ViewUploadedFile = 'IYA:DemandManagement:FileUploads::ViewUploadedFile';
+export const IYA_DemandManagement_FileUploads_DownloadUploadedFile = 'IYA:DemandManagement:FileUploads::DownloadUploadedFile';
+export const IYA_DemandManagement_FileUploads_UploadFile = 'IYA:DemandManagement:FileUploads::UploadFile';
