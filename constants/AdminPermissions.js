@@ -388,3 +388,5 @@ export const IBE_Guests_ListGuests = 'IBE:Guests:ListGuests';
 export const IBE_Guests_DescribeGuest = 'IBE:Guests:DescribeGuest';
 export const IBE_Guests_ViewContactDetails = 'IBE:Guests:ViewContactDetails';
 export const IBE_Guests_UpdateStatus = 'IBE:Guests:UpdateStatus';
+export const IBE_Guests_ViewReports = 'IBE:Guests:ViewReports';
+export const IBE_Guests_DownloadReports = 'IBE:Guests:DownloadReports';
