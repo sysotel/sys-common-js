@@ -379,3 +379,6 @@ export const IYA_DemandManagement_FileUploads_DescribeUpload = 'IYA:DemandManage
 export const IYA_DemandManagement_FileUploads_ViewUploadedFile = 'IYA:DemandManagement:FileUploads::ViewUploadedFile';
 export const IYA_DemandManagement_FileUploads_DownloadUploadedFile = 'IYA:DemandManagement:FileUploads::DownloadUploadedFile';
 export const IYA_DemandManagement_FileUploads_UploadFile = 'IYA:DemandManagement:FileUploads::UploadFile';
+
+export const ADMIN_STATUS_ACTIVE = 'ACTIVE';
+export const ADMIN_STATUS_BLOCKED = 'BLOCKED';
