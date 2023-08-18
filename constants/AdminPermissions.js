@@ -713,3 +713,6 @@ export const IYA_VendorManagement_AiReviews_FullAccess = 'IYA:VendorManagement:A
 export const IYA_VendorManagement_AiReviews_SearchHotel = 'IYA:VendorManagement:SearchHotel:SearchHotel';
 
 export const IYA_VendorManagement_AiReviews_RequestHotel = 'IYA:VendorManagement:RequestHotel:RequestHotel';
+
+export const ADMIN_STATUS_ACTIVE = 'ACTIVE'
+export const ADMIN_STATUS_BLOCKED = 'BLOCKED'
