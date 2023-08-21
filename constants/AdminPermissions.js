@@ -714,5 +714,42 @@ export const IYA_VendorManagement_AiReviews_SearchHotel = 'IYA:VendorManagement:
 
 export const IYA_VendorManagement_AiReviews_RequestHotel = 'IYA:VendorManagement:RequestHotel:RequestHotel';
 
+// REVIEW AUTOMATION
+export const IYA_ReviewDataManagement_ReviewAutomation_FullAccess = 'IYA:ReviewDataManagement:ReviewAutomation:*';
+export const IYA_ReviewDataManagement_ReviewAutomation_SyncData = 'IYA:ReviewDataManagement:ReviewAutomation:SyncData';
+export const IYA_ReviewDataManagement_ReviewAutomation_CreateAutomation = 'IYA:ReviewDataManagement:ReviewAutomation:CreateAutomation';
+export const IYA_ReviewDataManagement_ReviewAutomation_ListAutomation = 'IYA:ReviewDataManagement:ReviewAutomation:ListAutomation';
+export const IYA_ReviewDataManagement_ReviewAutomation_DescribeAutomation = 'IYA:ReviewDataManagement:ReviewAutomation:DescribeAutomation';
+
+// REVIEW INSIGHTS AUTOMATION
+export const IYA_ReviewDataManagement_ReviewInsightsAutomation_FullAccess = 'IYA:ReviewDataManagement:ReviewInsightsAutomation:*';
+export const IYA_ReviewDataManagement_ReviewInsightsAutomation_SyncData = 'IYA:ReviewDataManagement:ReviewInsightsAutomation:SyncData';
+export const IYA_ReviewDataManagement_ReviewInsightsAutomation_TriggerCalculation = 'IYA:ReviewDataManagement:ReviewInsightsAutomation:TriggerCalculation';
+export const IYA_ReviewDataManagement_ReviewInsightsAutomation_CreateAutomation = 'IYA:ReviewDataManagement:ReviewInsightsAutomation:CreateAutomation';
+export const IYA_ReviewDataManagement_ReviewInsightsAutomation_ListAutomation = 'IYA:ReviewDataManagement:ReviewInsightsAutomation:ListAutomation';
+export const IYA_ReviewDataManagement_ReviewInsightsAutomation_DescribeAutomation = 'IYA:ReviewDataManagement:ReviewInsightsAutomation:DescribeAutomation';
+
+// RATE SHOPPING AUTOMATION
+export const IYA_RateShoppingManagement_RateShoppingAutomation_FullAccess = 'IYA:RateShoppingManagement:RateShoppingAutomation:*';
+export const IYA_RateShoppingManagement_RateShoppingAutomation_ListAutomation = 'IYA:RateShoppingManagement:RateShoppingAutomation:ListAutomation';
+export const IYA_RateShoppingManagement_RateShoppingAutomation_DescribeAutomation = 'IYA:RateShoppingManagement:RateShoppingAutomation:DescribeAutomation';
+export const IYA_RateShoppingManagement_RateShoppingAutomation_CreateAutomation = 'IYA:RateShoppingManagement:RateShoppingAutomation:CreateAutomation';
+export const IYA_RateShoppingManagement_RateShoppingAutomation_OnDemandShopping = 'IYA:RateShoppingManagement:RateShoppingAutomation:OnDemandShopping';
+
+// BOOKING DATA AUTOMATION
+export const IYA_BookingDataManagement_BookingDataAutomation_FullAccess = 'IYA:BookingDataManagement:BookingDataAutomation:*';
+export const IYA_BookingDataManagement_BookingDataAutomation_SyncData = 'IYA:BookingDataManagement:BookingDataAutomation:SyncData';
+export const IYA_BookingDataManagement_BookingDataAutomation_CreateAutomation = 'IYA:BookingDataManagement:BookingDataAutomation:CreateAutomation';
+export const IYA_BookingDataManagement_BookingDataAutomation_ListAutomation = 'IYA:BookingDataManagement:BookingDataAutomation:ListAutomation';
+export const IYA_BookingDataManagement_BookingDataAutomation_DescribeAutomation = 'IYA:BookingDataManagement:BookingDataAutomation:DescribeAutomation';
+
+// BOOKING INSIGHTS AUTOMATION
+export const IYA_BookingDataManagement_BookingInsightsAutomation_FullAccess = 'IYA:BookingDataManagement:BookingInsightsAutomation:*';
+export const IYA_BookingDataManagement_BookingInsightsAutomation_SyncData = 'IYA:BookingDataManagement:BookingInsightsAutomation:SyncData';
+export const IYA_BookingDataManagement_BookingInsightsAutomation_TriggerCalculation = 'IYA:BookingDataManagement:BookingInsightsAutomation:TriggerCalculation';
+export const IYA_BookingDataManagement_BookingInsightsAutomation_CreateAutomation = 'IYA:BookingDataManagement:BookingInsightsAutomation:CreateAutomation';
+export const IYA_BookingDataManagement_BookingInsightsAutomation_ListAutomation = 'IYA:BookingDataManagement:BookingInsightsAutomation:ListAutomation';
+export const IYA_BookingDataManagement_BookingInsightsAutomation_DescribeAutomation = 'IYA:BookingDataManagement:BookingInsightsAutomation:DescribeAutomation';
+
 export const ADMIN_STATUS_ACTIVE = 'ACTIVE'
 export const ADMIN_STATUS_BLOCKED = 'BLOCKED'
