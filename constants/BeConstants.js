@@ -167,7 +167,3 @@ export const RMS_REST_API = 'RMS_REST_API';
 export const WINCLOUD_PMS = 'WINCLOUD_PMS';
 export const HOTELOGIX_CM = 'HOTELOGIX_CM';
 export const RESAVENUE ='RESAVENUE';
-
-export const GUEST_STATUS_ACTIVE = 'ACTIVE';
-
-export const GUEST_STATUS_BLOCKED = 'BLOCKED';
