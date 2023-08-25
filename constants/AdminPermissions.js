@@ -470,6 +470,12 @@ export const IYA_RateShoppingManagement_RateShoppingInspection_ListData = 'IYA:R
 
 export const IYA_RateShoppingManagement_RateShoppingInspection_DescribeData = 'IYA:RateShoppingManagement:RateShoppingInspection:DescribeData';
 
+// RATE SHOPPING RAW DATA
+
+export const IYA_RateShoppingManagement_RawData_FullAccess = 'IYA:RateShoppingManagement:RawData:*';
+export const IYA_RateShoppingManagement_RawData_ListRateShopping = 'IYA:RateShoppingManagement:RawData:ListRateShopping';
+export const IYA_RateShoppingManagement_RawData_DescribeRateShopping = 'IYA:RateShoppingManagement:RawData:DescribeRateShopping';
+
 
 // REVIEW SETUPS
 
@@ -536,6 +542,14 @@ export const IYA_ReviewDataManagement_ReviewSummaryActivity_FullAccess = 'IYA:Re
 export const IYA_ReviewDataManagement_ReviewSummaryActivity_ListActivity = 'IYA:ReviewDataManagement:ReviewSummaryActivity:ListActivity';
 
 export const IYA_ReviewDataManagement_ReviewSummaryActivity_DescribeActivity = 'IYA:ReviewDataManagement:ReviewSummaryActivity:DescribeActivity';
+
+// REVIEW RAW DATA
+
+export const IYA_ReviewDataManagement_RawData_FullAccess = 'IYA:ReviewDataManagement:RawData:*';
+export const IYA_ReviewDataManagement_RawData_ListReviews = 'IYA:ReviewDataManagement:RawData:ListReviews';
+export const IYA_ReviewDataManagement_RawData_DescribeReviews = 'IYA:ReviewDataManagement:RawData:DescribeReviews';
+export const IYA_ReviewDataManagement_RawData_ListReviewInsights = 'IYA:ReviewDataManagement:RawData:ListReviewInsights';
+export const IYA_ReviewDataManagement_RawData_DescribeReviewInsights = 'IYA:ReviewDataManagement:RawData:DescribeReviewInsights';
 
 
 // COMPSETS
@@ -751,5 +765,52 @@ export const IYA_BookingDataManagement_BookingInsightsAutomation_CreateAutomatio
 export const IYA_BookingDataManagement_BookingInsightsAutomation_ListAutomation = 'IYA:BookingDataManagement:BookingInsightsAutomation:ListAutomation';
 export const IYA_BookingDataManagement_BookingInsightsAutomation_DescribeAutomation = 'IYA:BookingDataManagement:BookingInsightsAutomation:DescribeAutomation';
 
+// BOOKING RAW DATA
+export const IYA_BookingDataManagement_RawData_FullAccess = 'IYA:BookingDataManagement:RawData:*';
+export const IYA_BookingDataManagement_RawData_ListReviews = 'IYA:BookingDataManagement:RawData:ListBookings';
+export const IYA_BookingDataManagement_RawData_DescribeReviews = 'IYA:BookingDataManagement:RawData:DescribeBooking';
+export const IYA_BookingDataManagement_RawData_ListReviewInsights = 'IYA:BookingDataManagement:RawData:ListBookingInsights';
+export const IYA_BookingDataManagement_RawData_DescribeReviewInsights = 'IYA:BookingDataManagement:RawData:DescribeBookingInsights';
+
 export const ADMIN_STATUS_ACTIVE = 'ACTIVE'
 export const ADMIN_STATUS_BLOCKED = 'BLOCKED'
+
+export const IYA_EventDataManagement_FullAccess = 'IYA:EventDataManagement:FullAccess';
+
+export const IYA_EventDataManagement_EventSetups_FullAccess = 'IYA:EventDataManagement:EventSetups:FullAccess';
+export const IYA_EventDataManagement_EventSetups_ListSetups = 'IYA:EventDataManagement:EventSetups:ListSetups';
+export const IYA_EventDataManagement_EventSetups_DescribeSetup = 'IYA:EventDataManagement:EventSetups:DescribeSetup';
+export const IYA_EventDataManagement_EventSetups_CreateSetup = 'IYA:EventDataManagement:EventSetups:CreateSetup';
+export const IYA_EventDataManagement_EventSetups_EditSetup = 'IYA:EventDataManagement:EventSetups:EditSetup';
+export const IYA_EventDataManagement_EventSetups_ActivateSetup = 'IYA:EventDataManagement:EventSetups:ActivateSetup';
+export const IYA_EventDataManagement_EventSetups_RejectSetup = 'IYA:EventDataManagement:EventSetups:RejectSetup';
+export const IYA_EventDataManagement_EventSetups_DisableSetup = 'IYA:EventDataManagement:EventSetups:DisableSetup';
+
+export const IYA_EventDataManagement_RawData_FullAccess = 'IYA:EventDataManagement:RawData:*';
+export const IYA_EventDataManagement_RawData_ListEvents = 'IYA:EventDataManagement:RawData:ListEvents';
+export const IYA_EventDataManagement_RawData_DescribeEvent = 'IYA:EventDataManagement:RawData:DescribeEvent';
+export const IYA_EventDataManagement_RawData_ListVenues = 'IYA:EventDataManagement:RawData:ListVenues';
+export const IYA_EventDataManagement_RawData_DescribeVenue = 'IYA:EventDataManagement:DescribeEvent:DescribeVenue';
+
+export const IYA_EventDataManagement_Reports_FullAccess = 'IYA:EventDataManagement:Reports:*';
+export const IYA_EventDataManagement_Reports_ViewReports = 'IYA:EventDataManagement:Reports:ViewReports';
+export const IYA_EventDataManagement_Reports_DownloadReports = 'IYA:EventDataManagement:Reports:DownloadReports';
+
+export const IYA_EventDataManagement_EventActivity_FullAccess = 'IYA:EventDataManagement:EventActivity:*';
+export const IYA_EventDataManagement_EventActivity_ListActivity = 'IYA:EventDataManagement:EventActivity:ListActivity';
+export const IYA_EventDataManagement_EventActivity_DescribeActivity = 'IYA:EventDataManagement:EventActivity:DescribeActivity';
+
+export const IYA_EventDataManagement_VenueActivity_FullAccess = 'IYA:EventDataManagement:VenueActivity:*';
+export const IYA_EventDataManagement_VenueActivity_ListActivity = 'IYA:EventDataManagement:VenueActivity:ListActivity';
+export const IYA_EventDataManagement_VenueActivity_DescribeActivity = 'IYA:EventDataManagement:VenueActivity:DescribeActivity';
+
+export const IYA_EventDataManagement_Automation_FullAccess = 'IYA:EventDataManagement:Automation:*';
+export const IYA_EventDataManagement_Automation_ViewAutomation = 'IYA:EventDataManagement:Automation:ViewAutomation';
+export const IYA_EventDataManagement_Automation_CreateAutomation = 'IYA:EventDataManagement:Automation:CreateAutomation';
+export const IYA_EventDataManagement_Automation_UpdateAutomation = 'IYA:EventDataManagement:Automation:UpdateAutomation';
+export const IYA_EventDataManagement_Automation_RemoveAutomation = 'IYA:EventDataManagement:Automation:RemoveAutomation';
+
+// PROPERTY DEMAND RAW DATA
+export const IYA_DemandManagement_RawData_FullAccess = 'IYA:DemandManagement:RawData:*';
+export const IYA_DemandManagement_RawData_ListPropertyDemand = 'IYA:DemandManagement:RawData:ListPropertyDemand';
+export const IYA_DemandManagement_RawData_DescribePropertyDemand = 'IYA:DemandManagement:RawData:DescribePropertyDemand';
