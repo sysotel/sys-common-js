@@ -814,3 +814,5 @@ export const IYA_EventDataManagement_Automation_RemoveAutomation = 'IYA:EventDat
 export const IYA_DemandManagement_RawData_FullAccess = 'IYA:DemandManagement:RawData:*';
 export const IYA_DemandManagement_RawData_ListPropertyDemand = 'IYA:DemandManagement:RawData:ListPropertyDemand';
 export const IYA_DemandManagement_RawData_DescribePropertyDemand = 'IYA:DemandManagement:RawData:DescribePropertyDemand';
+
+export const IAM_ExtranetUserManagement_EditUser = 'IAM:ExtranetUserManagement:EditUser';
