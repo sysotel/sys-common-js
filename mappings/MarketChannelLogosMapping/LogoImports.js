@@ -121,6 +121,7 @@ import _WELCOME_HERITAGE from '../../assets/MarketChannelLogos/Welcom_HERITAGE.s
 import _WORLDROAMER from '../../assets/MarketChannelLogos/WORLDROAMER.svg';
 import _XENIA from '../../assets/MarketChannelLogos/XENIA.svg';
 import _YATRA from '../../assets/MarketChannelLogos/YATRA.svg';
+import _SYSOTEL from '../../assets/MarketChannelLogos/YATRA.svg';
 
 export {
     _ABBA_HOTELES,
@@ -220,6 +221,7 @@ export {
     _SIMPLE_BOOKING,
     _SIMPLOTEL,
     _SPLENDIA,
+    _SYSOTEL,
     _TOUR_MY_INDIA,
     _TRAVELIKO,
     _TRAVELOCITY,

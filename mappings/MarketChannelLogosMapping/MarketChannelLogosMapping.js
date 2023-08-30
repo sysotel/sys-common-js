@@ -265,6 +265,7 @@ import {
     _TRAVELGURU,
     _VIA,
     _WELCOME_HERITAGE,
+    _SYSOTEL
 } from "./LogoImports.js";
 
 export const MarketChannelMapping = {
