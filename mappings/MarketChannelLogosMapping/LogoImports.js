@@ -126,8 +126,10 @@ import _IDS from '../../assets/MarketChannelLogos/IDS.svg';
 import _HOTELOGIX from '../../assets/MarketChannelLogos/HOTELOGIX.svg';
 import _WINCLOUD from '../../assets/MarketChannelLogos/WINCLOUD.svg';
 import _MAXIMOJO from '../../assets/MarketChannelLogos/MAXIMOJO.svg';
+import _RMS from '../../assets/MarketChannelLogos/RMS.svg';
 
 export {
+    _RMS,
     _MAXIMOJO,
     _WINCLOUD,
     _HOTELOGIX,
