@@ -122,8 +122,16 @@ import _WORLDROAMER from '../../assets/MarketChannelLogos/WORLDROAMER.svg';
 import _XENIA from '../../assets/MarketChannelLogos/XENIA.svg';
 import _YATRA from '../../assets/MarketChannelLogos/YATRA.svg';
 import _SYSOTEL from '../../assets/MarketChannelLogos/SYSOTEL.svg';
+import _IDS from '../../assets/MarketChannelLogos/IDS.png';
+import _HOTELOGIX from '../../assets/MarketChannelLogos/HOTELOGIX.png';
+import _WINCLOUD from '../../assets/MarketChannelLogos/WINCLOUD.svg';
+import _MAXIMOJO from '../../assets/MarketChannelLogos/MAXIMOJO.png';
 
 export {
+    _MAXIMOJO,
+    _WINCLOUD,
+    _HOTELOGIX,
+    _IDS,
     _ABBA_HOTELES,
     _ACCORHOTELS,
     _ADAGIO_CITY,
