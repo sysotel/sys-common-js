@@ -1,5 +1,5 @@
 import {MarketChannelMapping} from "./mappings/MarketChannelLogosMapping/MarketChannelLogosMapping.js";
-import NoImageFound from "./assets/MarketChannelLogos/NO_IMAGE_FOUND.svg"
+import NoImageFound from './assets/MarketChannelLogos/NO_IMAGE_FOUND.svg'
 
 export const MarketChannelLogo = (marketChannel) => {
     if (marketChannel in MarketChannelMapping) {
