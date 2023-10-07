@@ -10,7 +10,7 @@ export const FullReadAccess = 'FullReadAccess';
  */
 
 
-export const ACCOUNT_FullAccess = 'ACCOUNT.*';
+export const ACCOUNT_FullAccess = 'ACCOUNT.*'
 
 export const ACCOUNT_DescribeProfile = 'ACCOUNT:DescribeProfile';
 
