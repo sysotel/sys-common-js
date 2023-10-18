@@ -145,8 +145,11 @@ import {
     CHANNEL_MANAGER_WINCLOUD,
     CHANNEL_MANAGER_MAXIMOJO,
     CHANNEL_MANAGER_RESAVENUE,
-    CHANNEL_MANAGER_RMS
+    CHANNEL_MANAGER_RMS,
 } from "../../constants/IyaConstants.js";
+
+import {SYSOTEL_IBE_CHANNEL_API} from "../../constants/BeConstants.js";
+
 import {
     _RMS,
     _MAXIMOJO,
@@ -275,10 +278,12 @@ import {
     _VIA,
     _WELCOME_HERITAGE,
     _SYSOTEL,
-    _IDS
+    _IDS,
+    _SYSOTEL_LOGO
 } from "./LogoImports.js";
 
-export const MarketChannelMapping = {
+export const LogoMappings = {
+    [SYSOTEL_IBE_CHANNEL_API]: _SYSOTEL_LOGO,
     [MARKET_CHANNEL_CLEARTRIP]: _CLEARTRIP,
     [CHANNEL_MANAGER_RESAVENUE]: _RESAVENUE,
     [MARKET_CHANNEL_MAKEMYTRIP]: _MAKEMYTRIP,
