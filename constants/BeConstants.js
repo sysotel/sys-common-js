@@ -167,6 +167,7 @@ export const RMS_REST_API = 'RMS_REST_API';
 export const WINCLOUD_PMS = 'WINCLOUD_PMS';
 export const HOTELOGIX_CM = 'HOTELOGIX_CM';
 export const RESAVENUE ='RESAVENUE';
+export const IDS_NEXT = 'IDS_NEXT';
 
 export const  LOG_LEVEL_EMERGENCY = 'EMERGENCY';
 export const  LOG_LEVEL_ALERT = 'ALERT';

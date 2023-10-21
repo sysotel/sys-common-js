@@ -1,3 +1,5 @@
+export const ADMIN_STATUS_ACTIVE = 'ACTIVE';
+
 export const FullAccess = '*';
 
 export const FullReadAccess = 'FullReadAccess';
@@ -26,7 +28,6 @@ export const ACCOUNT_ChangeProfilePassword = 'ACCOUNT:ChangeProfilePassword';
      */
 
 export const IAM_fullAccess = 'IAM.*';
-
 
 // ADMIN PERMISSIONS
 
