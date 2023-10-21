@@ -1,5 +1,7 @@
 export const ADMIN_STATUS_ACTIVE = 'ACTIVE';
 
+export const ADMIN_STATUS_BLOCKED = 'BLOCKED';
+
 export const FullAccess = '*';
 
 export const FullReadAccess = 'FullReadAccess';
