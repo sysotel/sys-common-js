@@ -12,7 +12,7 @@ export const MarketChannelLogo = (marketChannel) => {
     }
 }
 
-export const AmenityIcon = (amenity) => {
+export const amenityIcon = (amenity) => {
     const requiredAmenity = iconMapper(amenity)
 
     if(requiredAmenity) {
