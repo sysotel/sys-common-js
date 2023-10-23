@@ -11,14 +11,3 @@ export const MarketChannelLogo = (marketChannel) => {
 
     }
 }
-
-export const amenityIcon = (amenity) => {
-    const requiredAmenity = iconMapper(amenity)
-
-    if(requiredAmenity) {
-        return requiredAmenity
-
-    }
-
-    return 'DoNotDisturbAlt'
-}
