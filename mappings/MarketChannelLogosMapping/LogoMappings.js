@@ -146,11 +146,13 @@ import {
     CHANNEL_MANAGER_MAXIMOJO,
     CHANNEL_MANAGER_RESAVENUE,
     CHANNEL_MANAGER_RMS,
+    CHANNEL_MANAGER_EASEROOMS
 } from "../../constants/IyaConstants.js";
 
 import {SYSOTEL_IBE_CHANNEL_API} from "../../constants/BeConstants.js";
 
 import {
+    _EASEROOM,
     _RMS,
     _MAXIMOJO,
     _WINCLOUD,
@@ -429,6 +431,7 @@ export const LogoMappings = {
     [CHANNEL_MANAGER_WINCLOUD]: _WINCLOUD,
     [CHANNEL_MANAGER_MAXIMOJO]: _MAXIMOJO,
     [CHANNEL_MANAGER_RMS]: _RMS,
+    [CHANNEL_MANAGER_EASEROOMS]: _EASEROOM,
     //     [MARKET_CHANNEL_TRAVEL]: _TRAVEL,
     //     [MARKET_CHANNEL_HOTELS_CTRIP_COM]: _HOTELS_CTRIP_COM,
 }

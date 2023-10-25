@@ -127,9 +127,11 @@ import _HOTELOGIX from '../../assets/MarketChannelLogos/HOTELOGIX.svg';
 import _WINCLOUD from '../../assets/MarketChannelLogos/WINCLOUD.svg';
 import _MAXIMOJO from '../../assets/MarketChannelLogos/MAXIMOJO.svg';
 import _RMS from '../../assets/MarketChannelLogos/RMS.svg';
-import _SYSOTEL_LOGO from '../../assets/MarketChannelLogos/SYSOTEL_LOGO.svg'
+import _SYSOTEL_LOGO from '../../assets/MarketChannelLogos/SYSOTEL_LOGO.svg';
+import _EASEROOM from '../../assets/MarketChannelLogos/EASEROOM.svg';
 
 export {
+    _EASEROOM,
     _SYSOTEL_LOGO,
     _RMS,
     _MAXIMOJO,
