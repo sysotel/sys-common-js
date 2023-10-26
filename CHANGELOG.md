@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.111](https://github.com/sysotel/sys-common-js/compare/v1.0.110...v1.0.111) (2023-10-26)
+
+
+### Bug Fixes
+
+* fixes easerooms logo exports ([26d2f96](https://github.com/sysotel/sys-common-js/commit/26d2f9682bcc4bfb2fc26ed060da66935e5e81cd))
+
 ### [1.0.110](https://github.com/sysotel/sys-common-js/compare/v1.0.109...v1.0.110) (2023-10-26)
 
 ### [1.0.109](https://github.com/sysotel/sys-common-js/compare/v1.0.108...v1.0.109) (2023-10-25)
