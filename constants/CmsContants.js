@@ -19,5 +19,3 @@ export const ACCOUNT_TYPE_SELF = "SELF";
 export const CURRENCY_INR = "INR";
 
 export const TIMEZONE_ASIA_KOLKATA = 'Asia/Kolkata'
-
-
