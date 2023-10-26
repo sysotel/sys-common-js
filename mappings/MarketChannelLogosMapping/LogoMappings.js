@@ -146,10 +146,9 @@ import {
     CHANNEL_MANAGER_MAXIMOJO,
     CHANNEL_MANAGER_RESAVENUE,
     CHANNEL_MANAGER_RMS,
-    CHANNEL_MANAGER_EASEROOMS
 } from "../../constants/IyaConstants.js";
 
-import {SYSOTEL_IBE_CHANNEL_API} from "../../constants/BeConstants.js";
+import {CHANNEL_MANAGER_EASEROOMS, SYSOTEL_IBE_CHANNEL_API} from "../../constants/BeConstants.js";
 
 import {
     _EASEROOM,
