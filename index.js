@@ -1,6 +1,7 @@
 import {LogoMappings} from "./mappings/MarketChannelLogosMapping/LogoMappings.js";
 import NoImageFound from './assets/MarketChannelLogos/NO_IMAGE_FOUND.svg'
 import iconMapper from "./mappings/AmenityIconsMapping/IconMappings.js";
+import {paymentGatewayIconsMapping} from "./mappings/PaymentGatewayIconsMapping/PaymentGatewayIconsMapping.js";
 
 export const MarketChannelLogo = (marketChannel) => {
     if (marketChannel in LogoMappings) {
@@ -21,4 +22,14 @@ export const amenityIcon = (amenity) => {
     }
 
     return 'DoNotDisturbAlt'
+}
+
+export const paymentGatewayIcons = (paymentGateway) => {
+    if (paymentGateway in paymentGatewayIconsMapping) {
+        return paymentGatewayIconsMapping[paymentGateway]
+
+    } else {
+        return NoImageFound
+
+    }
 }

@@ -281,7 +281,7 @@ import {
     _SYSOTEL,
     _IDS_NEXT,
     _SYSOTEL_LOGO
-} from "./LogoImports.js";
+} from "../LogoImports.js";
 
 export const LogoMappings = {
     [SYSOTEL_IBE_CHANNEL_API]: _SYSOTEL_LOGO,
