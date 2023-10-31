@@ -2,6 +2,7 @@ import {LogoMappings} from "./mappings/MarketChannelLogosMapping/LogoMappings.js
 import NoImageFound from './assets/MarketChannelLogos/NO_IMAGE_FOUND.svg'
 import iconMapper from "./mappings/AmenityIconsMapping/IconMappings.js";
 import {paymentGatewayIconsMapping} from "./mappings/PaymentGatewayIconsMapping/PaymentGatewayIconsMapping.js";
+import {affiliationSourceIconMapping} from "./mappings/AffiliationSourceIconMapping/AffiliationSourceIconMapping.js";
 
 export const MarketChannelLogo = (marketChannel) => {
     if (marketChannel in LogoMappings) {
@@ -27,6 +28,16 @@ export const amenityIcon = (amenity) => {
 export const paymentGatewayIcons = (paymentGateway) => {
     if (paymentGateway in paymentGatewayIconsMapping) {
         return paymentGatewayIconsMapping[paymentGateway]
+
+    } else {
+        return NoImageFound
+
+    }
+}
+
+export const affiliationSourceIcon = (affliliationSourcs) => {
+    if (affliliationSourcs in affiliationSourceIconMapping) {
+        return LogoMappings[affliliationSourcs]
 
     } else {
         return NoImageFound
