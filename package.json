@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "next-images": "^1.8.5"
   }
 }

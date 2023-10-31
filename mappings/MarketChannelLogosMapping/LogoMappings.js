@@ -280,7 +280,7 @@ import {
     _WELCOME_HERITAGE,
     _SYSOTEL,
     _IDS_NEXT,
-    _SYSOTEL_LOGO
+    _SYSOTEL_LOGO, _NO_IMAGE_FOUND
 } from "../LogoImports.js";
 
 export const LogoMappings = {
@@ -431,6 +431,7 @@ export const LogoMappings = {
     [CHANNEL_MANAGER_MAXIMOJO]: _MAXIMOJO,
     [CHANNEL_MANAGER_RMS]: _RMS,
     [CHANNEL_MANAGER_EASEROOMS]: _EASEROOM,
+    'NO_IMAGE_FOUND': _NO_IMAGE_FOUND,
     //     [MARKET_CHANNEL_TRAVEL]: _TRAVEL,
     //     [MARKET_CHANNEL_HOTELS_CTRIP_COM]: _HOTELS_CTRIP_COM,
 }

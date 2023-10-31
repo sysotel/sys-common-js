@@ -17,7 +17,7 @@ export const MarketChannelLogo = (marketChannel) => {
 export const amenityIcon = (amenity) => {
     const requiredAmenity = iconMapper(amenity)
 
-    if(requiredAmenity) {
+    if (requiredAmenity) {
         return requiredAmenity
 
     }
@@ -39,8 +39,10 @@ export const affiliationSourceIcon = (affiliationSource) => {
     if (affiliationSource in affiliationSourceIconMapping) {
         return LogoMappings[affiliationSource]
 
-    } else {
-        return NoImageFound
-
     }
+
+    return NoImageFound
+
 }
+
+console.log("affiliationSource in affiliationSourceIconMapping", 'AgodaYCS' in affiliationSourceIconMapping)

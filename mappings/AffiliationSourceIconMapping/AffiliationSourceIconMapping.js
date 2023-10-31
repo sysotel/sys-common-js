@@ -122,11 +122,12 @@ import {
     _HOTELS_BED,
     _HRS,
     _IRCTC,
-    _MR_AND_MRS_SMITH,
+    _MR_AND_MRS_SMITH, _NO_IMAGE_FOUND,
     _OSTROVOK,
     _PEGIPEGI,
     _RAKUTEN, _SAFFRON_STAYS, _SIMPLOTEL, _TRAVEL_CLICK, _TRAVELGURU, _TRAVELOCITY, _TRAVELOKA, _TRIPADVISOR,
-    _UNION_LIDO, _WEBHOTELIER
+    _UNION_LIDO, _WEBHOTELIER,
+
 } from "../LogoImports.js";
 
 export const affiliationSourceIconMapping = {
@@ -240,4 +241,5 @@ export const affiliationSourceIconMapping = {
     // [AFFILIATION_SOURCE_VRBO] :
     [AFFILIATION_SOURCE_WEBHOTELIER] : _WEBHOTELIER,
     // [AFFILIATION_SOURCE_WEBROOMS] : _WEBRO
+    'NO_IMAGE_FOUND': _NO_IMAGE_FOUND
 }

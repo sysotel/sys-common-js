@@ -133,8 +133,10 @@ import _CASHFREE from '../assets/MarketChannelLogos/Cashfree.svg';
 import _RAZORPAY from '../assets/MarketChannelLogos/Razorpay.svg';
 import _PAYU from '../assets/MarketChannelLogos/payu.svg';
 import _AIRPAY from '../assets/MarketChannelLogos/airpay.svg';
+import _NO_IMAGE_FOUND from '../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg';
 
 export {
+    _NO_IMAGE_FOUND,
     _CASHFREE,
     _RAZORPAY,
     _PAYU,
