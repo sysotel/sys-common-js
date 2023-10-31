@@ -35,9 +35,9 @@ export const paymentGatewayIcons = (paymentGateway) => {
     }
 }
 
-export const affiliationSourceIcon = (affliliationSourcs) => {
-    if (affliliationSourcs in affiliationSourceIconMapping) {
-        return LogoMappings[affliliationSourcs]
+export const affiliationSourceIcon = (affiliationSource) => {
+    if (affiliationSource in affiliationSourceIconMapping) {
+        return LogoMappings[affiliationSource]
 
     } else {
         return NoImageFound
