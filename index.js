@@ -1,5 +1,4 @@
 import {LogoMappings} from "./mappings/MarketChannelLogosMapping/LogoMappings.js";
-import NoImageFound from './assets/MarketChannelLogos/NO_IMAGE_FOUND.svg'
 import iconMapper from "./mappings/AmenityIconsMapping/IconMappings.js";
 import {paymentGatewayIconsMapping} from "./mappings/PaymentGatewayIconsMapping/PaymentGatewayIconsMapping.js";
 import {affiliationSourceIconMapping} from "./mappings/AffiliationSourceIconMapping/AffiliationSourceIconMapping.js";
@@ -9,7 +8,7 @@ export const MarketChannelLogo = (marketChannel) => {
         return LogoMappings[marketChannel]
 
     } else {
-        return NoImageFound
+        return LogoMappings['NO_IMAGE_FOUND']
 
     }
 }
@@ -30,19 +29,16 @@ export const paymentGatewayIcons = (paymentGateway) => {
         return paymentGatewayIconsMapping[paymentGateway]
 
     } else {
-        return NoImageFound
+        return paymentGatewayIconsMapping['NO_IMAGE_FOUND']
 
     }
 }
 
 export const affiliationSourceIcon = (affiliationSource) => {
     if (affiliationSource in affiliationSourceIconMapping) {
-        return LogoMappings[affiliationSource]
+        return affiliationSourceIconMapping[affiliationSource]
 
     }
 
-    return NoImageFound
-
+    return affiliationSourceIconMapping['NO_IMAGE_FOUND']
 }
-
-console.log("affiliationSource in affiliationSourceIconMapping", 'AgodaYCS' in affiliationSourceIconMapping)

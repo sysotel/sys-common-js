@@ -1,5 +1,3 @@
-import {_NO_IMAGE_FOUND} from "../LogoImports.js";
-
 export default function iconMapper(amenityName) {
     const iconSet = {
         "PROPERTY:BASIC_FACILITIES:ELEVATOR": 'Elevator',

@@ -902,3 +902,18 @@ export const IYA_VendorManagement_AiReviews_FullAccess = 'IYA:VendorManagement:A
 export const IYA_VendorManagement_AiReviews_SearchHotel = 'IYA:VendorManagement:SearchHotel:SearchHotel';
 
 export const IYA_VendorManagement_AiReviews_RequestHotel = 'IYA:VendorManagement:RequestHotel:RequestHotel';
+
+export const IAM_CompanyManagement_FullAccess = 'IAM:CompanyManagement:*';
+export const IAM_CompanyManagement_ListCompany = 'IAM:CompanyManagement:ListCompanies';
+export const IAM_CompanyManagement_CreateCompany = 'IAM:CompanyManagement:CreateCompany';
+export const IAM_CompanyManagement_UpdateCompany = 'IAM:CompanyManagement:UpdateCompany';
+export const IAM_CompanyManagement_UpdateCompanyStatus = 'IAM:CompanyManagement:UpdateCompanyStatus';
+export const IAM_CompanyManagement_ManageGroupAssignements = 'IAM:CompanyManagement:ManageGroupAssignements';
+export const IAM_CompanyManagement_ManagePropertyAssignements = 'IAM:CompanyManagement:ManagePropertyAssignements';
+export const IAM_GroupManagement_FullAccess = 'IAM:GroupManagement:*';
+export const IAM_GroupManagement_ListGroups = 'IAM:GroupManagement:ListGroups';
+export const IAM_GroupManagement_CreateGroup = 'IAM:GroupManagement:CreateGroup';
+export const IAM_GroupManagement_UpdateGroup = 'IAM:GroupManagement:UpdateGroup';
+export const IAM_GroupManagement_UpdateGroupStatus = 'IAM:GroupManagement:UpdateGroupStatus';
+export const IAM_GroupManagement_ManageCompanyAssignements = 'IAM:GroupManagement:ManageCompanyAssignements';
+export const IAM_GroupManagement_ManagePropertyAssignements = 'IAM:GroupManagement:ManagePropertyAssignements';
