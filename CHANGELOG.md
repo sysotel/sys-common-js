@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.116](https://github.com/sysotel/sys-common-js/compare/v1.0.115...v1.0.116) (2023-11-16)
+
 ### [1.0.115](https://github.com/sysotel/sys-common-js/compare/v1.0.114...v1.0.115) (2023-10-31)
 
 ### [1.0.114](https://github.com/sysotel/sys-common-js/compare/v1.0.113...v1.0.114) (2023-10-31)
