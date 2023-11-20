@@ -5,7 +5,8 @@
   "main": "./index.js",
   "type": "commonjs",
   "exports": {
-    "./constants/AdminPermissions": "./constants/AdminPermissions.js"
+    "./constants/AdminPermissions": "./constants/AdminPermissions.js",
+    "./constants/IyaConstants": "./constants/IyaConstants.js"
   },
   "scripts": {
     "start": "node index.js",
