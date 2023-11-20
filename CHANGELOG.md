@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.123](https://github.com/sysotel/sys-common-js/compare/v1.0.122...v1.0.123) (2023-11-20)
+
+
+### Bug Fixes
+
+* fixes logo import and exports ([aeeaa04](https://github.com/sysotel/sys-common-js/commit/aeeaa048bdca46c40a21477cc7a30d1de89dd86e))
+
 ### [1.0.122](https://github.com/sysotel/sys-common-js/compare/v1.0.121...v1.0.122) (2023-11-20)
 
 
