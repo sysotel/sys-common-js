@@ -19,14 +19,7 @@
     "@sysotel:registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.1.0",
     "file-loader": "^6.2.0",
-    "standard-version": "^9.5.0",
-    "svg-inline-loader": "^0.8.2",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "next-images": "^1.8.5"
+    "standard-version": "^9.5.0"
   }
 }

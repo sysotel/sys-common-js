@@ -13,4 +13,3 @@ export const paymentGatewayIconsMapping = {
     [PAYMENT_GATEWAY_CASHFREE] : _CASHFREE,
     'NO_IMAGE_FOUND': _NO_IMAGE_FOUND,
 }
-
