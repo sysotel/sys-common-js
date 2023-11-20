@@ -1,3 +1,3 @@
-export const APP_ENV_LOCAL = 'local';
-export const APP_ENV_SANDBOX = 'sandbox';
-export const APP_ENV_PRODUCTION = 'production';
+module.exports.APP_ENV_LOCAL = 'local';
+module.exports.APP_ENV_SANDBOX = 'sandbox';
+module.exports.APP_ENV_PRODUCTION = 'production';

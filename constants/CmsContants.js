@@ -1,21 +1,21 @@
-export const PROPERTY_STATUS_INACTIVE = 'INACTIVE';
-export const PROPERTY_STATUS_ACTIVE = 'ACTIVE';
+module.exports.PROPERTY_STATUS_INACTIVE = 'INACTIVE';
+module.exports.PROPERTY_STATUS_ACTIVE = 'ACTIVE';
 
-export const SPACE_STATUS_ACTIVE = 'ACTIVE';
-export const SPACE_STATUS_INACTIVE = 'INACTIVE';
+module.exports.SPACE_STATUS_ACTIVE = 'ACTIVE';
+module.exports.SPACE_STATUS_INACTIVE = 'INACTIVE';
 
-export const PRODUCT_STATUS_ACTIVE = 'ACTIVE';
-export const PRODUCT_STATUS_INACTIVE = 'INACTIVE';
+module.exports.PRODUCT_STATUS_ACTIVE = 'ACTIVE';
+module.exports.PRODUCT_STATUS_INACTIVE = 'INACTIVE';
 
-export const AMENITY_TARGET_PROPERTY = 'PROPERTY'
-export const AMENITY_TARGET_SPACE = 'SPACE'
+module.exports.AMENITY_TARGET_PROPERTY = 'PROPERTY'
+module.exports.AMENITY_TARGET_SPACE = 'SPACE'
 
-export const PROMOTION_TYPE_BASIC = 'BASIC'
-export const PROMOTION_TYPE_EARLY_BIRD = 'EARLY_BIRD'
-export const PROMOTION_TYPE_LAST_MINUTE = 'LAST_MINUTE'
+module.exports.PROMOTION_TYPE_BASIC = 'BASIC'
+module.exports.PROMOTION_TYPE_EARLY_BIRD = 'EARLY_BIRD'
+module.exports.PROMOTION_TYPE_LAST_MINUTE = 'LAST_MINUTE'
 
-export const ACCOUNT_TYPE_SELF = "SELF";
+module.exports.ACCOUNT_TYPE_SELF = "SELF";
 
-export const CURRENCY_INR = "INR";
+module.exports.CURRENCY_INR = "INR";
 
-export const TIMEZONE_ASIA_KOLKATA = 'Asia/Kolkata'
+module.exports.TIMEZONE_ASIA_KOLKATA = 'Asia/Kolkata'

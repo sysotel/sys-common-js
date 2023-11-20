@@ -2,8 +2,8 @@
   "name": "@sysotel/sys-common-js",
   "version": "1.0.123",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "./index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",

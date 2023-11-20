@@ -1,3 +1,3 @@
-export const CMMAX = 'CMMAX'
-export const CMRES = 'CMRES'
-export const CMSU = 'CMSU'
+module.exports.CMMAX = 'CMMAX'
+module.exports.CMRES = 'CMRES'
+module.exports.CMSU = 'CMSU'
