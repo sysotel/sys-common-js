@@ -5,7 +5,7 @@
   "main": "./index.js",
   "type": "commonjs",
   "exports": {
-    "AdminPermissions": "./constants/AdminPermissions"
+    "./constants/AdminPermissions": "./constants/AdminPermissions.js"
   },
   "scripts": {
     "start": "node index.js",
