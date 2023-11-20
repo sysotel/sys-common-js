@@ -5,8 +5,20 @@
   "main": "./index.js",
   "type": "commonjs",
   "exports": {
+    "./index.js": "./index.js",
     "./constants/AdminPermissions": "./constants/AdminPermissions.js",
-    "./constants/IyaConstants": "./constants/IyaConstants.js"
+    "./constants/BeConstants": "./constants/BeConstants.js",
+    "./constants/ChannelManagerConstants": "./constants/ChannelManagerConstants.js",
+    "./constants/CmsContants": "./constants/CmsContants.js",
+    "./constants/CMSUConstants": "./constants/CMSUConstants.js",
+    "./constants/CommonConstants": "./constants/CommonConstants.js",
+    "./constants/CrsConstants": "./constants/CrsConstants.js",
+    "./constants/IamConstants": "./constants/IamConstants.js",
+    "./constants/IamPermissionConstants": "./constants/IamPermissionConstants.js",
+    "./constants/IyaConstants": "./constants/IyaConstants.js",
+    "./constants/ModuleConstants": "./constants/ModuleConstants.js",
+    "./constants/RateShopperConstants": "./constants/RateShopperConstants.js",
+    "./constants/ReviewConstants": "./constants/ReviewConstants.js"
   },
   "scripts": {
     "start": "node index.js",

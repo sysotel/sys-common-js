@@ -1,4 +1,4 @@
-export default function iconMapper(amenityName) {
+function AmenityIcon(amenityName) {
     const iconSet = {
         "PROPERTY:BASIC_FACILITIES:ELEVATOR": 'Elevator',
         "PROPERTY:BASIC_FACILITIES:AC": 'AcUnit',
@@ -298,3 +298,5 @@ export default function iconMapper(amenityName) {
     }
     return iconSet[amenityName]
 }
+
+module.exports = AmenityIcon
