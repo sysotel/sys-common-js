@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.118](https://github.com/sysotel/sys-common-js/compare/v1.0.117...v1.0.118) (2023-11-20)
+
+
+### Bug Fixes
+
+* fixes svg import problem ([2357da8](https://github.com/sysotel/sys-common-js/commit/2357da8c3a101995fe324475ad511a7e41bfd737))
+
 ### [1.0.117](https://github.com/sysotel/sys-common-js/compare/v1.0.116...v1.0.117) (2023-11-16)
 
 ### [1.0.116](https://github.com/sysotel/sys-common-js/compare/v1.0.115...v1.0.116) (2023-11-16)
