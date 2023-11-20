@@ -4,6 +4,9 @@
   "description": "",
   "main": "./index.js",
   "type": "commonjs",
+  "exports": {
+    "AdminPermissions": "./constants/AdminPermissions"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
