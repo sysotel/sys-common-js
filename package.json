@@ -5,7 +5,7 @@
   "main": "./index.js",
   "type": "commonjs",
   "exports": {
-    "./index.js": "./index.js",
+    ".": "./index.js",
     "./constants/AdminPermissions": "./constants/AdminPermissions.js",
     "./constants/BeConstants": "./constants/BeConstants.js",
     "./constants/ChannelManagerConstants": "./constants/ChannelManagerConstants.js",
