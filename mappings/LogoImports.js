@@ -1,6 +1,6 @@
-import fs from 'fs';
+import fs from 'fs'
 
-const _ABBA_HOTELES = fs.readFileSync('assets/MarketChannelLogos/ABBA_HOTELES.svg');
+const _ABBA_HOTELES = fs.readFileSync('assets/MarketChannelLogos/ABBA_HOTELES.svg', 'utf-8');
 const _ACCORHOTELS = fs.readFileSync('assets/MarketChannelLogos/ACCORHOTELS.svg')
 const _ADAGIO_CITY = fs.readFileSync('assets/MarketChannelLogos/ADAGIO_CITY.svg')
 const _AGODA = fs.readFileSync('assets/MarketChannelLogos/AGODA.svg')
