@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.134](https://github.com/sysotel/sys-common-js/compare/v1.0.133...v1.0.134) (2023-11-21)
+
+
+### Features
+
+* adds amenities icons ([b2bb6b6](https://github.com/sysotel/sys-common-js/commit/b2bb6b619d5e15de3d26618e2a428d9e6eec1ba7))
+
 ### [1.0.133](https://github.com/sysotel/sys-common-js/compare/v1.0.132...v1.0.133) (2023-11-20)
 
 ### [1.0.132](https://github.com/sysotel/sys-common-js/compare/v1.0.131...v1.0.132) (2023-11-20)
