@@ -1,4 +1,4 @@
-function AmenityIcon(amenityName, color = "#000", width = 24, height = 24) {
+function AmenityIcon(amenityName) {
     const iconSet = {
         "PROPERTY:BASIC_FACILITIES:ELEVATOR": require('../assets/amenitiesIcons/Elevator.svg'),
         "PROPERTY:BASIC_FACILITIES:AC": require('../assets/amenitiesIcons/AcUnit.svg'),
@@ -243,21 +243,10 @@ function AmenityIcon(amenityName, color = "#000", width = 24, height = 24) {
         "SPACE:CHILDCARE:IN_ROOM_CHILD_CARE": require('../assets/amenitiesIcons/ChildFriendly.svg'),
         "SPACE:FOOD_AND_DRINKS:REFRIGERATOR": require('../assets/amenitiesIcons/Kitchen.svg'),
         "SPACE:CHILDCARE:CRIBS": require('../assets/amenitiesIcons/Crib.svg'),
-        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg')
+        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').default
     };
 
-    const requiredSvg = iconSet[amenityName] || iconSet['NO_IMAGE_FOUND']
-
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(requiredSvg, "image/svg+xml");
-    const svgElement = doc.documentElement;
-
-    svgElement.setAttribute("width", width.toString());
-    svgElement.setAttribute("height", height.toString());
-    svgElement.setAttribute("fill", color);
-
-    return svgElement;
-
+    return iconSet[amenityName] || iconSet['NO_IMAGE_FOUND']
 }
 
 module.exports = AmenityIcon
