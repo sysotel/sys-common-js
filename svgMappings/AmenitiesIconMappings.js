@@ -1,6 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
 function AmenityIcon(amenityName, color = "#000", width = 24, height = 24) {
     const iconSet = {
         "PROPERTY:BASIC_FACILITIES:ELEVATOR": require('../assets/amenitiesIcons/Elevator.svg'),
