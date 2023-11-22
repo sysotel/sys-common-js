@@ -243,13 +243,13 @@ function AmenityIcon(amenityName, color = "#000", width = 24, height = 24) {
         "SPACE:CHILDCARE:IN_ROOM_CHILD_CARE": require('../assets/amenitiesIcons/ChildFriendly.svg'),
         "SPACE:FOOD_AND_DRINKS:REFRIGERATOR": require('../assets/amenitiesIcons/Kitchen.svg'),
         "SPACE:CHILDCARE:CRIBS": require('../assets/amenitiesIcons/Crib.svg'),
-        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').toString()
+        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg')
     };
 
     const requiredSvg = iconSet[amenityName] || iconSet['NO_IMAGE_FOUND']
 
     if (requiredSvg) {
-        return requiredSvg.replace(/width="[\d.]+"/, `width="${width}"`)
+        return requiredSvg.toString().replace(/width="[\d.]+"/, `width="${width}"`)
             .replace(/height="[\d.]+"/, `height="${height}"`)
             .replace(/fill="[^"]+"/, `fill="${color}"`);
 
