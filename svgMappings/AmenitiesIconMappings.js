@@ -249,11 +249,13 @@ function AmenityIcon(amenityName, color = "#000", width = 24, height = 24) {
     const requiredSvg = iconSet[amenityName] || iconSet['NO_IMAGE_FOUND']
 
     if (requiredSvg) {
-        return requiredSvg.toString().replace(/width="[\d.]+"/, `width="${width}"`)
+        requiredSvg.toString().replace(/width="[\d.]+"/, `width="${width}"`)
             .replace(/height="[\d.]+"/, `height="${height}"`)
             .replace(/fill="[^"]+"/, `fill="${color}"`);
 
     }
+
+    return JSON.parse(requiredSvg)
 }
 
 module.exports = AmenityIcon
