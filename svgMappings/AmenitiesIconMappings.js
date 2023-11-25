@@ -246,7 +246,7 @@ function AmenityIcon(amenityName) {
         'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').default
     };
 
-    return iconSet[amenityName] || iconSet['SPACE:FOOD_AND_DRINKS:COOKIES']
+    return iconSet[amenityName] || iconSet['PROPERTY:BASIC_FACILITIES:DRY_CLEANING_SERVICES']
 }
 
 module.exports = AmenityIcon
