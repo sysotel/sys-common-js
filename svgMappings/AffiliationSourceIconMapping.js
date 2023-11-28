@@ -221,7 +221,7 @@ const affiliationSourceIcon = (source) => {
         // [AFFILIATION_SOURCE_VRBO] :
         [AFFILIATION_SOURCE_WEBHOTELIER]: require('../assets/MarketChannelLogos/WEBHOTELIER.svg').default,
         // [AFFILIATION_SOURCE_WEBROOMS] : _WEBRO
-        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg')
+        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').default
     }
 
     return iconMappings[source] || iconMappings['NO_IMAGE_FOUND']
