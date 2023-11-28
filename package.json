@@ -1,6 +1,6 @@
 {
   "name": "@sysotel/sys-common-js",
-  "version": "1.0.147",
+  "version": "1.0.148",
   "description": "",
   "main": "./index.js",
   "type": "commonjs",
