@@ -111,8 +111,8 @@ const {
 const affiliationSourceIcon = (source) => {
 
     const iconMappings = {
-        [AFFILIATION_SOURCE_AGODAYCS]: require('../assets/MarketChannelLogos/AGODA.svg').default,
-        [AFFILIATION_SOURCE_AIRBNB]: require('../assets/MarketChannelLogos/AIRBNB.svg').default,
+        [AFFILIATION_SOURCE_AGODAYCS]: require('../assets/MarketChannelLogos/AGODA.svg'),
+        [AFFILIATION_SOURCE_AIRBNB]: require('../assets/MarketChannelLogos/AIRBNB.svg'),
         // [AFFILIATION_SOURCE_ALTOVITA] :
         // [AFFILIATION_SOURCE_AOT] :
         // [AFFILIATION_SOURCE_BAKUUN] :
@@ -125,27 +125,27 @@ const affiliationSourceIcon = (source) => {
         // [AFFILIATION_SOURCE_BOOKINGEYE] : _BOOKINGEYE
         // [AFFILIATION_SOURCE_BOOKNPAYXML] : _BOOKNPAY
         // [AFFILIATION_SOURCE_CAMPINGVISION] : _CAMPING
-        [AFFILIATION_SOURCE_CTRIP]: require('../assets/MarketChannelLogos/CTRIP.svg').default,
-        [AFFILIATION_SOURCE_DESPEGAR]: require('../assets/MarketChannelLogos/DESPEGAR.svg').default,
+        [AFFILIATION_SOURCE_CTRIP]: require('../assets/MarketChannelLogos/CTRIP.svg'),
+        [AFFILIATION_SOURCE_DESPEGAR]: require('../assets/MarketChannelLogos/DESPEGAR.svg'),
         // [AFFILIATION_SOURCE_DNATA] :
         // [AFFILIATION_SOURCE_DORMS] :
-        [AFFILIATION_SOURCE_DOTW]: require('../assets/MarketChannelLogos/DOTW.svg').default,
-        [AFFILIATION_SOURCE_EASEMYTRIP]: require('../assets/MarketChannelLogos/EASE_MY_TRIP.svg').default,
+        [AFFILIATION_SOURCE_DOTW]: require('../assets/MarketChannelLogos/DOTW.svg'),
+        [AFFILIATION_SOURCE_EASEMYTRIP]: require('../assets/MarketChannelLogos/EASE_MY_TRIP.svg'),
         // [AFFILIATION_SOURCE_ENTERTAINMENT] :
-        [AFFILIATION_SOURCE_EXPEDIA]: require('../assets/MarketChannelLogos/EXPEDIA.svg').default,
+        [AFFILIATION_SOURCE_EXPEDIA]: require('../assets/MarketChannelLogos/EXPEDIA.svg'),
         // [AFFILIATION_SOURCE_TIKITOUR] :
         // [AFFILIATION_SOURCE_EZTRAVEL] :
         // [AFFILIATION_SOURCE_FASTBOOKING] :
         // [AFFILIATION_SOURCE_FINDBULOUS] :
         // [AFFILIATION_SOURCE_GETROOM] : GETR
         // [AFFILIATION_SOURCE_GETYOURWEB] :GETYOU
-        [AFFILIATION_SOURCE_GOIBIBO]: require('../assets/MarketChannelLogos/GOIBIBO.svg').default,
-        [AFFILIATION_SOURCE_GOOGLE]: require('../assets/MarketChannelLogos/GOOGLE.svg').default,
+        [AFFILIATION_SOURCE_GOIBIBO]: require('../assets/MarketChannelLogos/GOIBIBO.svg'),
+        [AFFILIATION_SOURCE_GOOGLE]: require('../assets/MarketChannelLogos/GOOGLE.svg'),
         // [AFFILIATION_SOURCE_GRABROOMS] : _GRABR
-        [AFFILIATION_SOURCE_HAPPYEASYGO]: require('../assets/MarketChannelLogos/HAPPY_EASY_GO.svg').default,
+        [AFFILIATION_SOURCE_HAPPYEASYGO]: require('../assets/MarketChannelLogos/HAPPY_EASY_GO.svg'),
         // [AFFILIATION_SOURCE_HOSTELSCLUB] :
-        [AFFILIATION_SOURCE_HOSTELWORLD]: require('../assets/MarketChannelLogos/HOSTEL_WORLD.svg').default,
-        [AFFILIATION_SOURCE_HOTELBEDS]: require('../assets/MarketChannelLogos/HOTELS_BED.svg').default,
+        [AFFILIATION_SOURCE_HOSTELWORLD]: require('../assets/MarketChannelLogos/HOSTEL_WORLD.svg'),
+        [AFFILIATION_SOURCE_HOTELBEDS]: require('../assets/MarketChannelLogos/HOTELS_BED.svg'),
         // [AFFILIATION_SOURCE_HOTELBONANZA] : _HOTEL
         // [AFFILIATION_SOURCE_HOTELNETWORK] : _HOTEL
         // [AFFILIATION_SOURCE_HOTELTONIGHT] : HOTEL_TO
@@ -155,19 +155,19 @@ const affiliationSourceIcon = (source) => {
         // [AFFILIATION_SOURCE_HOTERIP] : _HOTER
         // [AFFILIATION_SOURCE_HOTUSA] : _HOTUS
         // [AFFILIATION_SOURCE_HOTWIRE] : _HOTWIR
-        [AFFILIATION_SOURCE_HRS]: require('../assets/MarketChannelLogos/HRS.svg').default,
+        [AFFILIATION_SOURCE_HRS]: require('../assets/MarketChannelLogos/HRS.svg'),
         // [AFFILIATION_SOURCE_HYPERGUEST] : _HYPER
         // [AFFILIATION_SOURCE_ICHONOZ] : _ICHO
         // [AFFILIATION_SOURCE_IESCAPE] :
         // [AFFILIATION_SOURCE_INSTANTMIGRATION] : _INSTAN
-        [AFFILIATION_SOURCE_IRCTC]: require('../assets/MarketChannelLogos/IRCTC.svg').default,
+        [AFFILIATION_SOURCE_IRCTC]: require('../assets/MarketChannelLogos/IRCTC.svg'),
         // [AFFILIATION_SOURCE_KLIKHOTEL] : _KLI
-        [AFFILIATION_SOURCE_LIDO]: require('../assets/MarketChannelLogos/UNION_LIDO.svg').default,
+        [AFFILIATION_SOURCE_LIDO]: require('../assets/MarketChannelLogos/UNION_LIDO.svg'),
         // [AFFILIATION_SOURCE_MAX] : _MAX
         // [AFFILIATION_SOURCE_METACHANNEL] : _METACHA
         // [AFFILIATION_SOURCE_MIDDLEEASTHOTEL] : _MIDDLE
         // [AFFILIATION_SOURCE_MITCHELLCORP] : _MIT
-        [AFFILIATION_SOURCE_MRANDMRSSMITH]: require('../assets/MarketChannelLogos/MR_AND_MRS_SMITH.svg').default,
+        [AFFILIATION_SOURCE_MRANDMRSSMITH]: require('../assets/MarketChannelLogos/MR_AND_MRS_SMITH.svg'),
         // [AFFILIATION_SOURCE_MYBOOKINGS] : _MY_
         // [AFFILIATION_SOURCE_NEEDITNOW] : _NEED_
         // [AFFILIATION_SOURCE_NEORCHA] : _NEORC
@@ -177,17 +177,17 @@ const affiliationSourceIcon = (source) => {
         // [AFFILIATION_SOURCE_OFFPEAKLUXURY] : _OFF
         // [AFFILIATION_SOURCE_OMNIHOTELIER] : _OMNIH
         // [AFFILIATION_SOURCE_ONEFINERATE] : _ONEFINE
-        [AFFILIATION_SOURCE_OSTROVOK]: require('../assets/MarketChannelLogos/OSTROVOK.svg').default,
+        [AFFILIATION_SOURCE_OSTROVOK]: require('../assets/MarketChannelLogos/OSTROVOK.svg'),
         // [AFFILIATION_SOURCE_PANPACIFIC] : _PA
-        [AFFILIATION_SOURCE_PEGIPEGI]: require('../assets/MarketChannelLogos/PEGIPEGI.svg').default,
+        [AFFILIATION_SOURCE_PEGIPEGI]: require('../assets/MarketChannelLogos/PEGIPEGI.svg'),
         // [AFFILIATION_SOURCE_PELICAN] : _PELI
         // [AFFILIATION_SOURCE_PRESTIGIA] : _PREST
         // [AFFILIATION_SOURCE_QUICKBEDS] : _QUI
-        [AFFILIATION_SOURCE_RAKUTEN]: require('../assets/MarketChannelLogos/RAKUTEN.svg').default,
+        [AFFILIATION_SOURCE_RAKUTEN]: require('../assets/MarketChannelLogos/RAKUTEN.svg'),
         // [AFFILIATION_SOURCE_RECONLINE] : RCEO
         // [AFFILIATION_SOURCE_RESERVHOTEL] : _RES
         // [AFFILIATION_SOURCE_ROIBACK] : _RO
-        [AFFILIATION_SOURCE_SAFFRONSTAYS]: require('../assets/MarketChannelLogos/SAFFRON_STAYS.svg').default,
+        [AFFILIATION_SOURCE_SAFFRONSTAYS]: require('../assets/MarketChannelLogos/SAFFRON_STAYS.svg'),
         // [AFFILIATION_SOURCE_SAWADEEXML] : _SA
         // [AFFILIATION_SOURCE_SIMPLEBOOKING] : SIMPLE
         // [AFFILIATION_SOURCE_SILVERDOORAPARTMENTS] : _SILVER
@@ -195,33 +195,33 @@ const affiliationSourceIcon = (source) => {
         // [AFFILIATION_SOURCE_SITU] : _SI
         // [AFFILIATION_SOURCE_STAAH] : _STA
         // [AFFILIATION_SOURCE_SUNHOTELS] : _SUN
-        [AFFILIATION_SOURCE_SYNXIS]: require('../assets/MarketChannelLogos/BE_SYNXIS_COM.svg').default,
+        [AFFILIATION_SOURCE_SYNXIS]: require('../assets/MarketChannelLogos/BE_SYNXIS_COM.svg'),
         // [AFFILIATION_SOURCE_TABLETHOTELS] : _TA
         // [AFFILIATION_SOURCE_TBO] : _TBO
         // [AFFILIATION_SOURCE_FIVEPM] : _FIVE
         // [AFFILIATION_SOURCE_THEBUKING] : _THEBU
         // [AFFILIATION_SOURCE_TIKET] : _TI
         // [AFFILIATION_SOURCE_TOMAS] : _TOM
-        [AFFILIATION_SOURCE_SIMPLOTEL]: require('../assets/MarketChannelLogos/SIMPLOTEL.svg').default,
+        [AFFILIATION_SOURCE_SIMPLOTEL]: require('../assets/MarketChannelLogos/SIMPLOTEL.svg'),
         // [AFFILIATION_SOURCE_TOURPLAN] : _TOUR
         // [AFFILIATION_SOURCE_TRAVCO] : _TRA
-        [AFFILIATION_SOURCE_TRAVELCLICK]: require('../assets/MarketChannelLogos/TRAVEL_CLICK.svg').default,
+        [AFFILIATION_SOURCE_TRAVELCLICK]: require('../assets/MarketChannelLogos/TRAVEL_CLICK.svg'),
         // [AFFILIATION_SOURCE_TRAVELANIUM] : _TRAVELAN
-        [AFFILIATION_SOURCE_TRAVELGURU]: require('../assets/MarketChannelLogos/TRAVELGURU.svg').default,
-        [AFFILIATION_SOURCE_TRAVELOKA]: require('../assets/MarketChannelLogos/TRAVELOKA.svg').default,
+        [AFFILIATION_SOURCE_TRAVELGURU]: require('../assets/MarketChannelLogos/TRAVELGURU.svg'),
+        [AFFILIATION_SOURCE_TRAVELOKA]: require('../assets/MarketChannelLogos/TRAVELOKA.svg'),
         // [AFFILIATION_SOURCE_TRAVELPORT] : _TRAVEL
-        [AFFILIATION_SOURCE_TRAVELOCITY]: require('../assets/MarketChannelLogos/TRAVELOCITY.svg').default,
+        [AFFILIATION_SOURCE_TRAVELOCITY]: require('../assets/MarketChannelLogos/TRAVELOCITY.svg'),
         // [AFFILIATION_SOURCE_TRAVELSTAYNETWORKXML] : _TRAVEL_ST
         // [AFFILIATION_SOURCE_TRAVEPIC] : _TRAVEP
-        [AFFILIATION_SOURCE_TRIPADVISOR]: require('../assets/MarketChannelLogos/TRIPADVISOR.svg').default,
+        [AFFILIATION_SOURCE_TRIPADVISOR]: require('../assets/MarketChannelLogos/TRIPADVISOR.svg'),
         // [AFFILIATION_SOURCE_TXGB] : _TXG
         // [AFFILIATION_SOURCE_VIAXML] : _VIA
         // [AFFILIATION_SOURCE_TRIPFACTORY] : _TRIPFAC
         // [AFFILIATION_SOURCE_TRIPJACK] : _TRIPJ
         // [AFFILIATION_SOURCE_VRBO] :
-        [AFFILIATION_SOURCE_WEBHOTELIER]: require('../assets/MarketChannelLogos/WEBHOTELIER.svg').default,
+        [AFFILIATION_SOURCE_WEBHOTELIER]: require('../assets/MarketChannelLogos/WEBHOTELIER.svg'),
         // [AFFILIATION_SOURCE_WEBROOMS] : _WEBRO
-        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').default
+        'NO_IMAGE_FOUND': require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg')
     }
 
     return iconMappings[source] || iconMappings['NO_IMAGE_FOUND']
