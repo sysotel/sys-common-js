@@ -243,7 +243,7 @@ function AmenityIcon(amenityName) {
         "SPACE:CHILDCARE:IN_ROOM_CHILD_CARE": require('../assets/amenitiesIcons/ChildFriendly.svg').default,
         "SPACE:FOOD_AND_DRINKS:REFRIGERATOR": require('../assets/amenitiesIcons/Kitchen.svg').default,
         "SPACE:CHILDCARE:CRIBS": require('../assets/amenitiesIcons/Crib.svg').default,
-        "NO_IMAGE_FOUND": require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').defaul.defaultt
+        "NO_IMAGE_FOUND": require('../assets/MarketChannelLogos/NO_IMAGE_FOUND.svg').default
     };
 
     return iconSet[amenityName] || iconSet['PROPERTY:BASIC_FACILITIES:DRY_CLEANING_SERVICES']
