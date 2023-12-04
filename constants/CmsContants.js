@@ -19,3 +19,22 @@ module.exports.ACCOUNT_TYPE_SELF = "SELF";
 module.exports.CURRENCY_INR = "INR";
 
 module.exports.TIMEZONE_ASIA_KOLKATA = 'Asia/Kolkata'
+
+module.exports.DINING_TYPE_RESTAURANT = 'RESTAURANT';
+module.exports.DINING_TYPE_CAFE = 'CAFE';
+module.exports.DINING_TYPE_BAR = 'BAR';
+module.exports.DINING_TYPE_LOUNGE = 'LOUNGE';
+module.exports.DINING_TYPE_PUB = 'PUB';
+module.exports.DINING_TYPE_BISTRO = 'BISTRO';
+module.exports.DINING_TYPE_BUFFET = 'BUFFET';
+module.exports.DINING_TYPE_FINE_DINING = 'FINE_DINING';
+module.exports.DINING_TYPE_FOOD_COURT = 'FOOD_COURT';
+module.exports.DINING_TYPE_DELI = 'DELI';
+module.exports.DINING_TYPE_PIZZERIA = 'PIZZERIA';
+module.exports.DINING_TYPE_BRASSERIE = 'BRASSERIE';
+module.exports.DINING_TYPE_TEA_ROOM = 'TEA_ROOM';
+module.exports.DINING_TYPE_GASTROPUB = 'GASTROPUB';
+module.exports.DINING_TYPE_GRILL_ROOM = 'GRILL_ROOM';
+module.exports.DINING_TYPE_WINE_BAR = 'WINE_BAR';
+module.exports.DINING_TYPE_JUICE_BAR_SMOOTHIE_BAR = 'JUICE_BAR_SMOOTHIE_BAR';
+module.exports.DINING_TYPE_ICE_CREAM_PARLOR = 'ICE_CREAM_PARLOR';
