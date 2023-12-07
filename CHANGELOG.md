@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.155](https://github.com/sysotel/sys-common-js/compare/v1.0.154...v1.0.155) (2023-12-07)
+
+
+### Bug Fixes
+
+* fixes payment logo exports ([e8ade60](https://github.com/sysotel/sys-common-js/commit/e8ade60f906d4112db04e5f6b9a5badfa061b917))
+
 ### [1.0.154](https://github.com/sysotel/sys-common-js/compare/v1.0.153...v1.0.154) (2023-12-05)
 
 ### [1.0.153](https://github.com/sysotel/sys-common-js/compare/v1.0.152...v1.0.153) (2023-12-04)
