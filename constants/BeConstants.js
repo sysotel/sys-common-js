@@ -204,3 +204,6 @@ module.exports.SYSOTEL_CMS_OPEN_API = 'SYSOTEL_CMS_OPEN_API';
 
 module.exports.BE_APP_STATUS_ACTIVE = 'ACTIVE';
 module.exports.BE_APP_STATUS_INACTIVE = 'INACTIVE';
+
+module.exports.BE_INVENTORY_CLOSE = 'CLOSE'
+module.exports.BE_INVENTORY_OPEN = 'OPEN'
