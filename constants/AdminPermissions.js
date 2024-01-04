@@ -145,6 +145,12 @@ module.exports.CMS_Queues_ListQueues = 'CMS:Queues:ListQueues';
 module.exports.CMS_Queues_DescribeQueue = 'CMS:Queues:DescribeQueue';
 module.exports.CMS_Queues_UpdateQueue = 'CMS:Queues:UpdateQueue';
 
+// geoData
+module.exports.CMS_GeoData_FullAccess = 'CMS:GeoData:*';
+module.exports.CMS_GeoData_ListData = 'CMS:GeoData:ListData';
+module.exports.CMS_GeoData_DescribeData = 'CMS:GeoData:DescribeData';
+module.exports.CMS_GeoData_UpdateData = 'CMS:GeoData:UpdateData';
+
 
 /**
  * -----------------------------------------------
