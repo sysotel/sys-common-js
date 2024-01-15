@@ -4,7 +4,6 @@ module.exports.ADMIN_STATUS_BLOCKED = 'BLOCKED';
 module.exports.FullAccess = '*';
 module.exports.FullReadAccess = 'FullReadAccess';
 
-
 /**
  * ------------------------------------------------
  * ------------------ ACCOUNT --------------------
@@ -93,13 +92,11 @@ module.exports.IAM_GroupManagement_UpdateGroup = 'IAM:GroupManagement:UpdateGrou
 module.exports.IAM_GroupManagement_UpdateGroupStatus = 'IAM:GroupManagement:UpdateGroupStatus';
 module.exports.IAM_GroupManagement_ManageCompanyAssignments = 'IAM:GroupManagement:ManageCompanyAssignments';
 module.exports.IAM_GroupManagement_ManagePropertyAssignments = 'IAM:GroupManagement:ManagePropertyAssignments';
-
 /**
  * ------------------------------------------------
  * -------------------- CMS ----------------------
  * ------------------------------------------------
  */
-
 module.exports.CMS_FullAccess = 'CMS.*';
 
 module.exports.CMS_Reports_FullAccess = 'CMS:Reports:*';
@@ -145,7 +142,6 @@ module.exports.CMS_Queues_ListQueues = 'CMS:Queues:ListQueues';
 module.exports.CMS_Queues_DescribeQueue = 'CMS:Queues:DescribeQueue';
 module.exports.CMS_Queues_UpdateQueue = 'CMS:Queues:UpdateQueue';
 
-// geoData
 module.exports.CMS_GeoData_FullAccess = 'CMS:GeoData:*';
 module.exports.CMS_GeoData_ListData = 'CMS:GeoData:ListData';
 module.exports.CMS_GeoData_DescribeData = 'CMS:GeoData:DescribeData';
@@ -157,7 +153,6 @@ module.exports.CMS_GeoData_UpdateData = 'CMS:GeoData:UpdateData';
  * -------------------- IBE ----------------------
  * -----------------------------------------------
  */
-
 module.exports.IBE_FullAccess = 'IBE:*';
 
 module.exports.IBE_PropertyLocks_FullAccess = 'IBE:PropertyLocks:*';
@@ -250,13 +245,11 @@ module.exports.IBE_PaymentGateways_ListData = 'IBE:PaymentGateways:ListData';
 module.exports.IBE_PaymentGateways_DescribeData = 'IBE:PaymentGateways:DescribeData';
 module.exports.IBE_PaymentGateways_UnlockEditing = 'IBE:PaymentGateways:UnlockEditing';
 module.exports.IBE_PaymentGateways_UpdateData = 'IBE:PaymentGateways:UpdateData';
-
 /**
  * -----------------------------------------------
  * -------------------- IYA --- -------------------
  * -----------------------------------------------
  */
-
 module.exports.IYA_FullAccess = 'IYA:*';
 
 
@@ -584,3 +577,10 @@ module.exports.IYA_VendorManagement_AiRateMetrics_ViewReferenceContent = 'IYA:Ve
 module.exports.IYA_VendorManagement_AiReviews_FullAccess = 'IYA:VendorManagement:AiReviews:*';
 module.exports.IYA_VendorManagement_AiReviews_SearchHotel = 'IYA:VendorManagement:SearchHotel:SearchHotel';
 module.exports.IYA_VendorManagement_AiReviews_RequestHotel = 'IYA:VendorManagement:RequestHotel:RequestHotel';
+
+module.exports.COMPANY_FullAccess = 'COMPANY:*';
+module.exports.COMPANY_Contacts_FullAccess = 'COMPANY:Contacts:*';
+module.exports.COMPANY_Contacts_ListContacts = 'COMPANY:Contacts:ListContacts';
+module.exports.COMPANY_Contacts_DescribeContacts = 'COMPANY:Contacts:DescribeContact';
+module.exports.COMPANY_Contacts_UpdateContacts = 'COMPANY:Contacts:UpdateContact';
+module.exports.COMPANY_Contacts_DeleteContact = 'COMPANY:Contacts:DeleteContact';
