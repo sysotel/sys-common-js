@@ -147,3 +147,11 @@ module.exports.PLACE_FUEL_TYPE_TRUCK_DIESEL = 'TRUCK_DIESEL';
 
 module.exports.STATUS_ACTIVE = 'ACTIVE';
 module.exports.STATUS_INACTIVE = 'INACTIVE';
+
+module.exports.TRAVEL_TYPE_TRANSIT = 'TRANSIT';
+module.exports.TRAVEL_TYPE_BICYCLING = 'BICYCLING';
+module.exports.TRAVEL_TYPE_DRIVING = 'DRIVING';
+module.exports.TRAVEL_TYPE_WALKING = 'WALKING';
+
+module.exports.PLACE_TAG_STATUS_ACTIVE = 'ACTIVE';
+module.exports.PLACE_TAG_STATUS_INACTIVE = 'INACTIVE';
